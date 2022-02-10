@@ -3465,7 +3465,7 @@ h5 {
           animation: fadeUp .4s linear;
 }
 
-.card .bid {
+.card .bid .form{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3478,7 +3478,7 @@ h5 {
   margin-top: 2.5rem;
 }
 
-.card .bid:hover {
+.card .bid:hover .form{
   background: transparent;
   border: 1px solid #A24BF8;
   color: #A24BF8;
