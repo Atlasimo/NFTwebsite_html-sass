@@ -3478,6 +3478,27 @@ h5 {
   margin-top: 2.5rem;
 }
 
+#myButton{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 0;
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border-radius: 10px;
+  margin-top: 2.5rem;
+}
+
+#myButton:hover {
+  background: transparent;
+  border: 1px solid #A24BF8;
+  color: #A24BF8;
+}
+
+
+
 .card .bid:hover {
   background: transparent;
   border: 1px solid #A24BF8;
